@@ -1,0 +1,25 @@
+body, nav ul {
+	margin: 0;
+}
+
+
+nav {
+	font-family: arial;
+	background-color: red;
+	color: violet;
+	background-color: blue; 
+}
+
+
+nav	ul li{
+	/*display: inline-block = ke kanan*/
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li:hover{
+	/*menambahkan animasi color dalam list ul*/
+	color: purple;
+	background-color: darkviolet;
+
+}
